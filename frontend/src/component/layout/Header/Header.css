@@ -1,0 +1,152 @@
+@media screen and (max-width: 800px) {
+  .logoReactNavbar {
+    width: 114% !important;
+    height: 10% !important;
+  }
+
+  .menu-4 {
+    display: none !important;
+  }
+
+}
+
+.speedDial{
+  position:fixed;
+  right:3vmax;
+  top :3vmax;
+}
+
+.speedDialIcon{
+  width:56px;
+  height:56px;
+  border-radius:100%;
+}
+
+
+
+
+/* my navbar css only */
+
+.HsearchBox{
+
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(176, 172, 172); */
+ 
+ 
+}
+
+.HsearchBox > input[type="text"] {
+  box-shadow: 0 0 5px black;
+  border: none;
+  color: black;
+
+  border-radius: 0%;
+  font: 300 1.1vmax cursive;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  
+}
+
+.HsearchBox > input[type="Submit"] {
+  box-shadow: 0 0 3px black;
+    
+  box-sizing: border-box;
+  border-radius: 0%;
+  background-color: tomato;
+  border: none;
+  padding: auto 1vmax;
+  font: 300 1.1vmax "Roboto";
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+}
+
+.HsearchBox > input[type="Submit"]:hover{
+    background-color:rgb(80, 80, 146);
+}
+
+
+
+
+
+/* .menu-4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  position:absolute;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20vmax;
+  
+  height: 10vh;
+} */
+
+.menu-4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: rgba(185, 185, 185, 0);
+  z-index: 9;
+  position:absolute;
+
+  margin-left: 20vmax;
+}
+
+.menu-4 * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+
+}
+.menu-4 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  overflow: hidden;
+}
+.menu-4 a {
+  padding: 0.3em 0;
+  color: #212121;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  font-size: 1.3vmax;
+
+}
+.menu-4 a:before,
+.menu-4 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.menu-4 a:before {
+  bottom: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: "";
+  background-color: #e67e22;
+}
+.menu-4 a:after {
+  padding: 0.3em 0;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  content: attr(data-hover);
+  color: black;
+  white-space: nowrap;
+    color: black;
+
+}
+.menu-4 li:hover a,
+.menu-4 .current a {
+  transform: translateY(100%);
+}
+

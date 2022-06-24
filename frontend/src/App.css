@@ -1,0 +1,33 @@
+html{
+    scroll-behavior: smooth !important ;
+  }
+  
+
+  body {
+   cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto !important; /* End https://www.cursors-4u.com */
+  }
+  
+  
+  /* Chrome Safari Edge Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button{
+    -webkit-appearance: none ;
+    margin:0;
+  }
+
+  /*Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield ;
+  }
+
+  .greenColor{
+    color:green !important ;
+  }
+
+  .redColor{
+    color:red !important ;
+  }
+
+
+
+  

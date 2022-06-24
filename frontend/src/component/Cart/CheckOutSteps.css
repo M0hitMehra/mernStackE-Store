@@ -1,0 +1,18 @@
+.c1{
+
+    margin-top:  3vmax;
+}
+
+.MultiStepConnector-line{
+    display:none !important;
+}
+
+.MultiStepConnector-root{
+    height: 1px;
+    background-color:black;
+}
+
+.MultiStepConnector-active,
+.MultiStepConnector-completed{
+    background-color:tomato;
+}

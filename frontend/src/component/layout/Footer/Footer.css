@@ -1,0 +1,89 @@
+footer {
+ 
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.leftFooter {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leftFooter > h4 {
+  font-family:"Oswald", "Roboto", "Helvetica Neue";
+  font-size: 1vmax;
+}
+
+.leftFooter > p {
+    font-size: 1vmax;
+  text-align: center;
+  font-family:"Oswald", "Roboto", "Helvetica Neue";
+}
+.leftFooter > img {
+  width: 10vmax;
+  margin: 1vmax;
+  cursor: pointer;
+}
+
+.leftFooter > img:hover {
+  filter: invert(100%);
+}
+
+.midFooter {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.midFooter > h1 {
+  font-size: 3.5vmax;
+  font-family: "Oswald", "Roboto", "Helvetica Neue";
+  color: red;
+}
+
+.midFooter > p {
+  max-width: 60%;
+  margin: 1vmax auto;
+  font-size: 1.1vmax;
+
+}
+
+.rightFooter {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.rightFooter > h4 {
+  font-family: "Roboto", "Helvetica Neue";
+  font-size: 1.4vmax;
+  text-decoration: underline;
+}
+.rightFooter > a {
+  text-decoration: none;
+  font-size: 1.4vmax;
+  font-family: "Roboto", "Helvetica Neue";
+  color: white;
+  margin: 0.5vmax;
+  transition: all 0.5s;
+}
+
+.rightFooter > a:hover {
+  color: #eb4034;
+}
