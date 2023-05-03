@@ -1,9 +1,12 @@
 {
     "version": 2,
-    "name": "mernStackE-Store",
-    "builds": [
-       { "src": "app.js", "use": "@vercel/node" }
-    ],
+    "name": "mern-stack-eStore",
+    "build": {
+      "env": {
+        "NPM_CONFIG_PRODUCTION": "false"
+      },
+      "command": "npm install && npm run build"
+    },
     "routes": [
        { "src": "/(.*)", "dest": "/app.js" }
     ]
