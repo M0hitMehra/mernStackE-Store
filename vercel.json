@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "mern-stack-eStore",
+    "name": "mernStackE-Store",
     "builds": [
        { "src": "app.js", "use": "@vercel/node" }
     ],
