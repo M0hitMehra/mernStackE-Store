@@ -2,6 +2,8 @@
 
 Hi! My name is **Mohit Mehra**, I have created this MERN Stack Website as a Project  and also to strong my knowledge about  MERN Stack.
 
+The SITE is live at -: https://mohitsotre.onrender.com/
+
 # Prerequisite
 
 1.  Must have basic knowledge of **Node**, **React**, **Express**, **MongoDB** 
